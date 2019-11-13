@@ -18,9 +18,9 @@ namespace CognitiveAttendanceWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        // This is the face subscription key to your environment variables.
+        // Face subscription ID environment variable.
         private static string subscriptionKey = Environment.GetEnvironmentVariable("FACE_SUBSCRIPTION_KEY");
-        // This is the face endpoint to your environment variables.
+        // Face endpoint environment variable.
         private string faceEndpoint = Environment.GetEnvironmentVariable("FACE_ENDPOINT");
 
 
